@@ -1,0 +1,96 @@
+body {
+  color: #0f1419;
+  font-family: sans-serif;
+  background: #ffffff;
+}
+
+.post {
+  display: flex;
+  box-sizing: border-box;
+  width: 552px;
+  min-height: 90px;
+  padding: 12px 14px;
+  border: 1px solid #00000030;
+  background: #ffffff;
+}
+
+.avatar-area {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+
+.avatar {
+  display: block;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 2px;
+  line-height: 1.2;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  gap: 3px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.name {
+  font-weight: 700;
+}
+
+.username,
+.date,
+.actions {
+  color: #536471;
+}
+
+.details-icon,
+.icon-only,
+.action img {
+  display: block;
+  width: 16px;
+  height: 16px;
+  opacity: 0.72;
+}
+
+.details-icon {
+  flex: 0 0 auto;
+}
+
+.text {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.3;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 13px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.spacer {
+  flex: 1;
+}
